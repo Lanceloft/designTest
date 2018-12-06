@@ -1,5 +1,6 @@
 # designtest
-有赞微页面vue自定义vue版
+仿有赞微页面  
+vue版本  
 按照格式可以自定义增加各种微页面
 
 ## Project setup
