@@ -2,6 +2,7 @@
 仿有赞微页面  
 vue版本  
 按照格式可以自定义增加各种微页面
+在线demo地址: http://23.95.214.206/dist/index.html
 
 ## Project setup
 ```
