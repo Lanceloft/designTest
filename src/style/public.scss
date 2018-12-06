@@ -1,0 +1,242 @@
+// <i class="van-icon van-icon-arrow van-cell__right-icon van-cell__right-icon--down"></i>
+// down或者up/icon
+#app {
+  width: 100%;
+  position: relative;
+  background: #ffffff;
+  overflow: hidden;
+  min-height: 100vh;
+  box-sizing: border-box;
+  color: #000000;
+  min-width: 1200px;
+  .content{
+    // padding: 0 6%;
+  }
+}
+.page-wrap{
+  .layout-content{
+    padding: 0 15px;
+    margin-top: 80px;
+    margin-left: 200px;
+    .content{
+      padding: 20px;
+      min-height: 280px;
+      background: #ffffff;
+    }
+  }
+  .sider-left{
+    position: fixed;
+    height: 90vh;
+    left: 0;
+    top: 65px;
+    overflow: auto;
+    background: #ffffff;
+  }
+  .layout{
+    border: 1px solid #d7dde4;
+    background: #f5f7f9;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .layout-logo{
+    width: 100px;
+    height: 30px;
+    background: #5b6270;
+    border-radius: 3px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 20px;
+  }
+  .layout-nav{
+    width: 420px;
+    margin: 0 auto;
+    margin-right: 20px;
+  }
+  .ivu-layout-sider-children {
+    height: 100%;
+  }
+}
+.ivu-poptip-confirm .ivu-poptip-popper {
+  width: 200px;
+}
+.ivu-poptip-confirm .ivu-poptip-body .ivu-icon {
+  left: 15px;
+}
+.bg-f8{
+  background: #f8f8f8;
+}
+.a-blue{
+  color: #2d8cf0;
+}
+.c-red{
+  color: #ed4014;
+}
+.tc {
+  text-align: center;
+}
+.tl {
+  text-align: left;
+}
+.tr {
+  text-align: right;
+}
+/* 设置内联, 减少浮动带来的bug */
+.fl {
+  float:left;
+}
+.fr {
+  float:right;
+}
+.border0{
+  border: 0!important;
+}
+.clear{
+  clear:both;
+  display:block;
+  height:0;
+  line-height:0;
+  font-size:0;
+}
+/* 字体大小 */
+.fs12{font-size: 12px}
+.fs14{font-size: 14px}
+.fs16{font-size: 16px}
+.fs18{font-size: 18px}
+.fs20{font-size: 20px}
+.fs22{font-size: 22px}
+.fs24{font-size: 24px}
+.fs26{font-size: 26px}
+.fs28{font-size: 28px}
+.fs30{font-size: 30px}
+.fs32{font-size: 32px}
+.fs34{font-size: 34px}
+.fs36{font-size: 36px}
+.fs38{font-size: 38px}
+.fs40{font-size: 40px}
+
+.c666{color: #666}
+.c999{color: #999}
+.c-price{color: #2c2c2c}
+.c-red{color: #eb524b!important}
+.bg-white{background: #ffffff}
+.ds-block{display: block}
+
+.border-bottom-d0d0d0{border-bottom: #d0d0d0;}
+.inlinebl{display: inline-block}
+// margin上下左右边距
+.mt0{margin-top: 0!important;}
+.mt20{margin-top: 20px!important;}
+.mt10{margin-top: 10px!important;}
+.ml20{margin-left: 20px!important;}
+.mb20{margin-bottom: 20px!important;}
+.mr20{margin-right: 20px!important;}
+.cursorp{
+  cursor: pointer;
+}
+.fz-w{
+  font-weight: bold;
+}
+//card 渐变
+.puss_card_bg{
+  color:#fff;
+  background: -webkit-linear-gradient(left top, #fb748b , #ff3f40);
+  background: -o-linear-gradient(bottom right, #fb748b, #ff3f40);
+  background: -moz-linear-gradient(bottom right, #fb748b, #ff3f40);
+  background: linear-gradient(to bottom right, #fb748b , #ff3f40);
+  box-shadow:0 5px 20px #ffbcbd;
+}
+// 主要按钮样式
+.type_red_gradient{
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(0deg, #ff3f40, #ff5f62);
+  box-shadow:0 5px 20px #ffbcbd;
+}
+.type_discount_gradient{
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(0deg, #eb7175, #f28f88);
+}
+.type_black_border_btn{
+  border: 1px solid #838383 !important;
+  color: #232323!important;
+}
+// 优惠券渐变
+.type_discount_line_gradient{
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(0deg, #d7686a, #df877c);
+}
+// 灰色按钮
+.zan-btn--disabled {
+  box-shadow: none ! important;
+  border: none ! important;
+  color: #999 ! important;
+  background: #f8f8f8 ! important;
+  border-color: #e5e5e5 ! important;
+  cursor: not-allowed ! important;
+  opacity: 1 ! important;
+  &::after {
+    border-color: #e5e5e5 ! important;
+  }
+}
+// 超出显示...
+.zan-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.zan-ellipsis--l1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box!important;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.zan-ellipsis--l2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box!important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.zan-ellipsis--l3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box!important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.zan-text-deleted {
+  text-decoration: line-through;
+}
+
+.ivu-poptip-popper {
+  .ivu-poptip-content {
+    .ivu-poptip-inner {
+      .ivu-poptip-footer {
+        .ivu-btn-text {
+          background-color: #f8f8f8 !important;
+        }
+      }
+    }
+  }
+}
+
+.imgs-text-nav {
+  position: relative;
+  &:hover .icon-delete {
+    display: block;
+  }
+
+  .icon-delete {
+    display: none;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 999;
+    background: white;
+  }
+}

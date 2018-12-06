@@ -1,0 +1,146 @@
+@import './base.scss';
+@import './public.scss';
+
+.store-design-category-add {
+  padding: 20px;
+  min-width: 900px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: flex-start;
+
+  .config-btn {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0 -3px 5px #eee;
+    background: #fff;
+
+    .save {
+      margin-left: -100px;
+    }
+  }
+
+  .design-category-add-preview {
+    width: 375px;
+    min-height: 450px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+
+    .homepage-header {
+      height: 64px;
+      background: url('https://img.yzcdn.cn/public_files/2017/12/04/636c384857358f1198932717124913aa.png');
+    }
+
+    .header-name {
+      padding: 23px 40px 0 40px;
+      height: 64px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .homepage-content {
+      min-height: 200px;
+
+      .add-item {
+        position: relative;
+
+        &:hover .icon-delete {
+          display: block;
+        }
+
+        .ivu-poptip {
+          position: absolute;
+          top: -10px;
+          right: 0px;
+
+        }
+
+        .icon-delete {
+          display: none;
+          position: absolute;
+          top: -10px;
+          right: -10px;
+          font-size: 20px;
+          cursor: pointer;
+          z-index: 4;
+          border-radius: 10px;
+          background: white;
+        }
+      }
+    }
+
+    .homepage-add-content {
+      padding: 0 10px;
+      border-top: 1px solid #e5e5e5;
+      min-height: 200px;
+      h5 {
+        text-align: left;
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+      }
+
+      .add-btn-group {
+        display: flex;
+        flex-wrap: wrap;
+
+        .add-btn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 0 10px 5px;
+          width: 83px;
+          height: 30px;
+          word-wrap: break-word;
+          word-break: break-all;
+          border: 1px solid #d1d1d1;
+          cursor: pointer;
+          color: #666;
+          background: #f8f8f8;
+
+          &:first-child {
+            // margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .design-category-add-editor {
+    margin-left: 10px;
+    width: 420px;
+    padding: 12px 10px;
+    background: #f8f8f8;
+
+    .editor-item {
+      margin-bottom: 10px;
+
+      .name {
+        height: 30px;
+        line-height: 30px;
+      }
+
+      .item-name {
+        display: inline-block;
+        width: 88px;
+        text-align: right;
+      }
+
+      .item-content {
+        margin-left: 10px;
+        display: inline-block;
+        line-height: 30px;
+
+        .item-input {
+          width: 220px;
+        }
+      }
+    }
+  }
+}
